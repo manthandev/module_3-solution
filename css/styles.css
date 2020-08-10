@@ -1,0 +1,26 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+.navbar-default .navbar-brand{
+    color:black;
+}
+.navbar-default .navbar-nav > li > a{
+    color: black;  
+    background-color:#bdc4af;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: black;
+}
+#row-div{
+    height: 1000px;
+    margin-bottom: 30px;
+    background-color: #a8b888;
+    overflow: hidden;
+}
+@media(max-width:767px){
+    .container{
+        margin-left:80px;
+        margin-right:80px;
+    }
+}
