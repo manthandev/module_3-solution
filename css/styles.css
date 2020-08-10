@@ -7,10 +7,14 @@ body{
 .navbar-default .navbar-nav > li > a{
     color: black;  
     background-color:#bdc4af;
+    border-bottom: 1px solid black;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus{
     color: black;
+}
+.navbar-nav{
+    margin:0 -15px;
 }
 #row-div{
     height: 1000px;
